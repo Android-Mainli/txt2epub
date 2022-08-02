@@ -7,7 +7,7 @@ Copyright (c)2017 Kevin Boone, GPLv3.0
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory.h>
-#include <malloc.h>
+#include <sys/malloc.h>
 #include <pthread.h>
 #include "kmslist.h"
 
