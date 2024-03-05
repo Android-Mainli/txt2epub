@@ -4,7 +4,7 @@
 .\" included, that it is not sold for profit, and that this copyright notice
 .\" is retained.
 .\"
-.TH kobo 1 "March 2017"
+.TH kobo 1 "May 2023"
 .SH NAME
 txt2epub \- a utility for converting text e-books to EPUB documents 
 .SH SYNOPSIS
@@ -85,6 +85,13 @@ English
 Sets the filename for the EPUB output. If none is specified, and if there
 is only one input file, then the output will be to a file with the same
 name in the same directory, with extension ".epub" 
+.LP
+
+.TP
+.BI \-\-para-indent
+Inserts a style definition into the generated code to encourage
+ebook readers to separate paragraphs by a simple indent, rather than
+a blank line.
 .LP
 
 .TP
